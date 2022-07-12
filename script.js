@@ -89,3 +89,19 @@ months.splice(1, 0, 'Feb');
 console.log(months)
 months.splice(5, 0, 'July')
 months.splice(4, 0, 'May')
+
+months = ['Jan', 'Feb', 'March', 'April', 'June']
+
+let monthsJoin = months.join('-')
+
+console.log({months})
+console.log({monthsJoin})
+
+
+let numeros = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+numeros.map(function(elemento, indice, array){
+    console.log({elemento})
+    console.log({indice})
+    console.log(array)
+})
