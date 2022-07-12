@@ -105,3 +105,9 @@ numeros.map(function(elemento, indice, array){
     console.log({indice})
     console.log(array)
 })
+
+let arrayDevuelto = numeros.map(function(elemento, indice){
+    console.log(`${indice} - ${elemento * indice}`)
+    console.log(indice + "-" + elemento * indice)
+    return elemento * indice
+})
