@@ -111,3 +111,17 @@ let arrayDevuelto = numeros.map(function(elemento, indice){
     console.log(indice + "-" + elemento * indice)
     return elemento * indice
 })
+
+/* ************************************ */
+
+let arrayObj = [
+    {nombre: "Emanuel", apellido: "Some" },
+    {nombre: "Ignacio", apellido: "Ferrea"},
+    {nombre: "Brian", apellido: "Klehr"}
+]
+
+const resultado = arrayObj.map( function(obj) {
+    console.log(obj)
+})
+
+
