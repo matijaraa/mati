@@ -74,4 +74,18 @@ console.log('\n/*** ARRAY SPLICE ***/')
 // Agrega elementos al principio del array
 // Devuelve la nueva cantidad de elementos
 
-let eliminado = arrayPares(3)
+arrayPares = [2, 4, 6, 8, 10, 12, 14]
+
+let eliminado = arrayPares.splice(3)
+
+console.log(arrayPares)
+console.log({eliminado})
+
+//
+
+let months = ['Jan', 'March', 'April', 'June']
+
+months.splice(1, 0, 'Feb');
+console.log(months)
+months.splice(5, 0, 'July')
+months.splice(4, 0, 'May')
