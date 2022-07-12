@@ -124,4 +124,5 @@ const resultado = arrayObj.map( function(obj) {
     console.log(obj)
 })
 
+/* Seguimos con array filter */
 
