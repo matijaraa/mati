@@ -126,3 +126,19 @@ const resultado = arrayObj.map( function(obj) {
 
 /* Seguimos con array filter */
 
+console.log('\n/*** ARRAY FILTER ***/')
+
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+console.log({numeros})
+
+let pares = numeros.filter( function(numero) {
+    if(numero % 2 === 0) {
+        return true
+    }
+})
+console.log(pares)
+console.log(1 % 2)
+console.log(2 % 2)
+console.log(3 % 2)
+console.log(4 % 2)
+console.log(5 % 2)
